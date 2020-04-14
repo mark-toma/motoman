@@ -8,4 +8,4 @@ moveit_setup_assistant_config:
   CONFIG:
     author_name: Mark Tomaszewski
     author_email: mark@mark-toma.com
-    generated_timestamp: 1586905213
+    generated_timestamp: 1586906050
