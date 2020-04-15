@@ -23,6 +23,10 @@
           <mesh filename="package://motoman_hc10_support/meshes/hc10/collision/base_link.stl"/>
         </geometry>
       </collision>
+      <inertial>
+        <mass value="0.1" />
+        <inertia ixx="0.03" iyy="0.03" izz="0.03" ixy="0.0" ixz="0.0" iyz="0.0" />
+      </inertial>
     </link>
     <link name="${prefix}link_1_s">
       <visual>
@@ -36,6 +40,10 @@
           <mesh filename="package://motoman_hc10_support/meshes/hc10/collision/link_1_s.stl"/>
         </geometry>
       </collision>
+      <inertial>
+        <mass value="0.1" />
+        <inertia ixx="0.03" iyy="0.03" izz="0.03" ixy="0.0" ixz="0.0" iyz="0.0" />
+      </inertial>
     </link>
     <link name="${prefix}link_2_l">
       <visual>
@@ -49,6 +57,10 @@
           <mesh filename="package://motoman_hc10_support/meshes/hc10/collision/link_2_l.stl"/>
         </geometry>
       </collision>
+      <inertial>
+        <mass value="0.1" />
+        <inertia ixx="0.03" iyy="0.03" izz="0.03" ixy="0.0" ixz="0.0" iyz="0.0" />
+      </inertial>
     </link>
     <link name="${prefix}link_3_u">
       <visual>
@@ -62,6 +74,10 @@
           <mesh filename="package://motoman_hc10_support/meshes/hc10/collision/link_3_u.stl"/>
         </geometry>
       </collision>
+      <inertial>
+        <mass value="0.1" />
+        <inertia ixx="0.03" iyy="0.03" izz="0.03" ixy="0.0" ixz="0.0" iyz="0.0" />
+      </inertial>
     </link>
     <link name="${prefix}link_4_r">
       <visual>
@@ -75,6 +91,10 @@
           <mesh filename="package://motoman_hc10_support/meshes/hc10/collision/link_4_r.stl"/>
         </geometry>
       </collision>
+      <inertial>
+        <mass value="0.1" />
+        <inertia ixx="0.03" iyy="0.03" izz="0.03" ixy="0.0" ixz="0.0" iyz="0.0" />
+      </inertial>
     </link>
     <link name="${prefix}link_5_b">
       <visual>
@@ -88,6 +108,10 @@
           <mesh filename="package://motoman_hc10_support/meshes/hc10/collision/link_5_b.stl"/>
         </geometry>
       </collision>
+      <inertial>
+        <mass value="0.1" />
+        <inertia ixx="0.03" iyy="0.03" izz="0.03" ixy="0.0" ixz="0.0" iyz="0.0" />
+      </inertial>
     </link>
     <link name="${prefix}link_6_t">
       <visual>
@@ -101,6 +125,10 @@
           <mesh filename="package://motoman_hc10_support/meshes/hc10dt/collision/link_6_t.stl"/>
        </geometry>
       </collision>
+      <inertial>
+        <mass value="0.1" />
+        <inertia ixx="0.03" iyy="0.03" izz="0.03" ixy="0.0" ixz="0.0" iyz="0.0" />
+      </inertial>
     </link>
     <link name="${prefix}tool0"/>
     <!-- end of link list -->
