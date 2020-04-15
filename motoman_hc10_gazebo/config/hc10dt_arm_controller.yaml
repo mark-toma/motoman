@@ -1,4 +1,4 @@
-hc10_arm_controller:
+hc10dt_arm_controller:
   type: position_controllers/JointTrajectoryController
   constraints:
       goal_time: 0.6
